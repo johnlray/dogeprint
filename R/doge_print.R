@@ -4,8 +4,6 @@
 #'
 #' @param doge_type
 #'
-#' @return NULL
-#'
 #' @examples doge_print('australian sheepdog')
 #'
 #' @export
@@ -38,6 +36,5 @@ doge_print <- function(doge_type = "australian sheepdog"){
 
   img <- load.image(img_w)
   q <- plot(img, axes=F)
-  print(q)
   return(q)
 }
