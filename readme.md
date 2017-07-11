@@ -5,7 +5,7 @@ Welcome to dogeprint!
 ### Installation
 ```{r}
 library(devtools)
-install_github("johnlray/doge_print")
+install_github("johnlray/dogeprint")
 ```
 
 ### Usage
