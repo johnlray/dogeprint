@@ -1,6 +1,6 @@
 ## dogeprint
 
-Welcome to dogeprint!
+Welcome to dogeprint! This is a very important library that takes a character string and returns a random Google Image result. It was designed with dogs in mind.
 
 ### Installation
 ```{r}

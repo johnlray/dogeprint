@@ -37,5 +37,7 @@ doge_print <- function(doge_type = "australian sheepdog"){
   img_w = xml_attr(node, 'src')[img_i]
 
   img <- load.image(img_w)
-  plot(img, axes=F)
+  q <- plot(img, axes=F)
+  print(q)
+  return(q)
 }
