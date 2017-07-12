@@ -8,10 +8,6 @@
 #'
 #' @export
 doge_print <- function(doge_type = "australian sheepdog"){
-  ps = c("dplyr","ggplot2","grid","imager","rvest")
-  new_p <- ps[!(ps %in% installed.packages()[,"Package"])]
-  if(length(new_p) > 0) {install.packages(new_p)} else{}
-
   require(dplyr)
   require(ggplot2)
   require(grid)
